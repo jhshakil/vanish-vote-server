@@ -3,6 +3,6 @@ import { PollControllers } from './poll.controller';
 
 const router = Router();
 
-router.get('/', PollControllers.createPoll);
+router.post('/', PollControllers.createPoll);
 
 export const PollRoutes = router;

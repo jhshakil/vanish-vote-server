@@ -3,6 +3,6 @@ import { VoteControllers } from './vote.controller';
 
 const router = Router();
 
-router.get('/', VoteControllers.createVote);
+router.post('/', VoteControllers.createVote);
 
 export const VoteRoutes = router;
